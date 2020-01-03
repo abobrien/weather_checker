@@ -2,7 +2,7 @@
 Python web scraper to pull US weather data from NWS
 using geopy, requests, BeautifulSoup.
 
-Geopy is a library to find lat,long coordinates for a given location provided as a string. This allows the weather_checker function to be called with locations in various formats such as 'City, State', 'City State', 'City', 'Zip', etc. reducing need for user to inpu the function paramater in a specific format.
+Geopy is a library to find latitude , longitude coordinates for a given location provided as a string. This allows the weather_checker function to be called with locations in various formats such as 'City, State', 'City State', 'City', 'Zip', etc. reducing need for user to inpu the function paramater in a specific format.
 
 requests is used to establish an HTTP connection to the website and download the source code into a python object.
 
