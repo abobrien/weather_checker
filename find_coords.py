@@ -5,7 +5,7 @@ import geopy
 locator = geopy.geocoders.Nominatim(user_agent='myGeocoder')
 
 # Define term to search for
-location = locator.geocode('Blacklick, OH')
+location = locator.geocode('Los Angeles, CA')
 
 # Print location name, latitude, longitude
 print(location)

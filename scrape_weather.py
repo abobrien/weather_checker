@@ -48,4 +48,4 @@ def check_weather(param1):
     print()
 
 # Call the function: check_weather
-check_weather('Blacklick OH')
+check_weather('Los Angeles, CA')
