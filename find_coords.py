@@ -2,6 +2,7 @@
 import geopy
 
 # Define location service to use
+# Full list of available services found in documentation under Geocoders: https://geopy.readthedocs.io/en/stable/
 locator = geopy.geocoders.Nominatim(user_agent='myGeocoder')
 
 # Define term to search for
