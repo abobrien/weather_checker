@@ -1,5 +1,5 @@
 # weather_checker
-Python-based web scraper to pull US weather data from NWS using geopy, requests, BeautifulSoup. The program runs in CLI or returns variable that could integrate into other applications.
+Python-based CLI application to pull US weather data from NWS using geopy, requests, BeautifulSoup. The program runs in CLI or returns variable that could integrate into other applications.
 
 Geopy is a library to find latitude , longitude coordinates for a given location provided as a string. This allows the weather_checker function to be called with locations in various formats such as 'City, State', 'City State', 'City', 'Zip', etc. reducing dependence on the user entering their location in the right format.
 
